@@ -424,13 +424,13 @@ body {
 }
 
 .react-datepicker__day--selected {
-  background-color: #624cf5 !important;
+  background-color: #92E3A9 !important;
   color: #ffffff !important;
   border-radius: 4px;
 }
 
 .react-datepicker__time-list-item--selected {
-  background-color: #624cf5 !important;
+  background-color: #92E3A9 !important;
 }
 ```
 </details>
@@ -461,9 +461,9 @@ module.exports = withUt({
     extend: {
       colors: {
         primary: {
-          500: '#624CF5',
+          500: '#92E3A9',
           50: ' #F6F8FD',
-          DEFAULT: '#624CF5',
+          DEFAULT: '#92E3A9',
           foreground: 'hsl(var(--primary-foreground))',
         },
         coral: {
