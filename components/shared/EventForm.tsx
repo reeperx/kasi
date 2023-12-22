@@ -208,7 +208,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                         onChange={(date: Date) => field.onChange(date)} 
                         showTimeSelect
                         timeInputLabel="Time:"
-                        dateFormat="MM/dd/yyyy h:mm aa"
+                        dateFormat="dd/MM/yyyy h:mm aa"
                         wrapperClassName="datePicker"
                       />
                     </div>
@@ -239,7 +239,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                         onChange={(date: Date) => field.onChange(date)} 
                         showTimeSelect
                         timeInputLabel="Time:"
-                        dateFormat="MM/dd/yyyy h:mm aa"
+                        dateFormat="dd/MM/yyyy h:mm aa"
                         wrapperClassName="datePicker"
                       />
                     </div>
@@ -307,7 +307,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                         height={24}
                       />
 
-                      <Input placeholder="URL" {...field} className="input-field" />
+                      <Input placeholder="Event Link (i.e: Facebook, Instagram, Twitter)" {...field} className="input-field" />
                     </div>
 
                   </FormControl>

@@ -96,6 +96,12 @@ body {
     @apply flex justify-between items-center;
   }
 
+  @media (max-width: 767px) {
+    .mobile-space p {
+        margin-bottom: 10px; /* Adjust this value to set the desired space */
+    }
+}
+
   /* TYPOGRAPHY */
   /* 64 */
   .h1-bold {
@@ -216,6 +222,10 @@ body {
   .textarea {
     @apply bg-grey-50 flex flex-1 placeholder:text-grey-500 p-regular-16 px-5 py-3 border-none focus-visible:ring-transparent !important;
   }
+
+  .paragraph-spacing {
+    margin-bottom: 20px; /* Adjust this value to set the desired space */
+}
 
   .button {
     @apply rounded-full h-[54px] p-regular-16;
